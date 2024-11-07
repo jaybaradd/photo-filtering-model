@@ -1,0 +1,8 @@
+streamlit==1.25.0       # Adjust version as per the latest stable release or your setup
+opencv-python-headless  # For OpenCV image processing without GUI dependencies
+tensorflow==2.13.0      # To support FaceNet embedding model
+keras-facenet           # For FaceNet embeddings (may use tensorflow/keras directly if needed)
+mtcnn==0.1.0            # For MTCNN face detection
+scikit-learn==1.2.2     # For SVM model and other ML algorithms
+joblib==1.3.2           # To save and load the SVM model
+numpy==1.23.5           # For numerical computations
